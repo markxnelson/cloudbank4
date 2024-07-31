@@ -1,0 +1,5 @@
+baseURL = 'https://markxnelson.github.io/cloudbank4/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = 'hugo-theme-relearn'
+
