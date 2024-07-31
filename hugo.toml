@@ -2,4 +2,3 @@ baseURL = 'https://markxnelson.github.io/cloudbank4/'
 languageCode = 'en-us'
 title = 'CloudBank v4'
 theme = 'hugo-theme-relearn'
-
