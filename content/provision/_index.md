@@ -1,6 +1,6 @@
 +++
 archetype = "chapter"
-title = "Provision"
+title = "Provision an Instance"
 weight = 1
 +++
 
