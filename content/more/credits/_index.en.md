@@ -4,7 +4,7 @@ title = "Credits"
 
 ## Contributors
 
-Thank you to the following contributors (alphabetical order):
+Thank you to the following contributors (listed in alphabetical order):
 
 * Corrado De Bari, Developer Evangelist, Oracle Database
 * Doug Drechsel, Developer Evangelist, Oracle Database
