@@ -48,7 +48,7 @@ weight = 2
     Check that you can access the cluster using this command:
 
     ```shell
-    $ <copy>kubectl get pods -n obaas-admin</copy>
+    $ kubectl get pods -n obaas-admin
     NAME                                READY   STATUS             RESTARTS   AGE
     graalvm-compiler-79988b886c-hgw68   1/1     Running            0          10m
     obaas-admin-66599b65-vb662          1/1     Running            0          10m
@@ -62,7 +62,7 @@ weight = 2
     You will need to provide the correct IP address for the API Gateway in your backend environment.  You can find the IP address using this command, you need the one listed in the `EXTERNAL-IP` column:
 
     ```shell
-    $ <copy>kubectl -n ingress-nginx get service ingress-nginx-controller</copy>
+    $ kubectl -n ingress-nginx get service ingress-nginx-controller
     NAME                       TYPE           CLUSTER-IP      EXTERNAL-IP   PORT(S)                      AGE
     ingress-nginx-controller   LoadBalancer   10.123.10.127   EXTERNAL-IP   80:30389/TCP,443:30458/TCP   13d
     ```
@@ -70,7 +70,7 @@ weight = 2
     Now use this command (with your IP address in the column **EXTERNAL-IP**) to make a request to the API Gateway.  You should receive a response with an HTTP Status Code 404 (Not Found) and an error message in JSON format as shown below.  Don't worry about the 404, you will deploy some services soon, but this test is enough to know the API Gateway started up successfully:
 
     ```shell
-    $ <copy>curl -i http://<EXTERNAL-IP>></copy>
+    $ curl -i http://<EXTERNAL-IP>>
     HTTP/1.1 404
     Date: Wed, 01 Mar 2023 19:21:08 GMT
     Content-Type: application/json
