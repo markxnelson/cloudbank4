@@ -1,7 +1,7 @@
 +++
 archetype = "chapter"
-title = "Basics"
-weight = 1
+title = "Deploy with an IDE"
+weight = 6
 +++
 
 This is a new chapter.
