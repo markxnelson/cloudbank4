@@ -1,7 +1,7 @@
 +++
 archetype = "chapter"
 title = "Explore the Backend"
-weight = 7
+weight = 8
 +++
 
 This is a new chapter.

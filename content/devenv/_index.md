@@ -1,7 +1,7 @@
 +++
 archetype = "chapter"
 title = "Developer Environment"
-weight = 1
+weight = 2
 +++
 
-This is a new chapter.
+xyz
